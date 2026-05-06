@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시글 보기</title>
+    <style>
+        .view-container { width: 500px; margin: 20px auto; font-family: sans-serif; }
+        .content-box { min-height: 200px; border: 1px solid #ddd; padding: 15px; margin-top: 10px; white-space: pre-wrap; }
+        .info { color: #666; font-size: 0.9em; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="view-container">
+        <h1><a href="../index.html" style="text-decoration: none; color: black;">피드백</a></h1>
+        
+      
+        <h2 id="view-title">제목을 불러오는 중...</h2>
+        
+        <div class="info">
+            작성자: <span id="view-author">-</span> | 
+            작성일: <span id="view-date">-</span>
+        </div>
+
+        <div id="view-content" class="content-box">내용을 불러오는 중입니다...</div>
+
+        <br>
+        <a href="./list.html">목록으로 돌아가기</a>
+    </div>
+
+    <script src="../public/view.js"></script>
+</body>
+</html>
